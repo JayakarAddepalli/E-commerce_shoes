@@ -94,8 +94,8 @@ mainimg_s.addEventListener('click',(event)=>{
 
 btn_1.addEventListener('click',()=>{
     
-    if(mainimg_s.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-4.jpg?raw=true'){
-        mainimg_s.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-3.jpg?raw=true';
+    if(mainimg_s.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-4.jpg?raw=true'){
+        mainimg_s.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-3.jpg?raw=true';
         imgele3_3.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele1_1.style.border = 'none';
         imgele2_2.style.border = 'none';
@@ -105,8 +105,8 @@ btn_1.addEventListener('click',()=>{
         imgele2_2.style.opacity = "1";
         imgele4_4.style.opacity = "1";
     }
-    else if(mainimg_s.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-3.jpg?raw=true'){
-        mainimg_s.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-2.jpg?raw=true';
+    else if(mainimg_s.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-3.jpg?raw=true'){
+        mainimg_s.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-2.jpg?raw=true';
         imgele2_2.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele1_1.style.border = 'none';
         imgele3_3.style.border = 'none';
@@ -116,8 +116,8 @@ btn_1.addEventListener('click',()=>{
         imgele3_3.style.opacity = "1";
         imgele4_4.style.opacity = "1";
     }
-    else if(mainimg_s.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-2.jpg?raw=true'){
-        mainimg_s.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-1.jpg?raw=true';
+    else if(mainimg_s.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-2.jpg?raw=true'){
+        mainimg_s.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-1.jpg?raw=true';
         imgele1_1.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele2_2.style.border = 'none';
         imgele3_3.style.border = 'none';
@@ -131,8 +131,8 @@ btn_1.addEventListener('click',()=>{
 
 btn_2.addEventListener('click',()=>{
 
-    if(mainimg_s.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-1.jpg?raw=true'){
-        mainimg_s.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-2.jpg?raw=true';
+    if(mainimg_s.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-1.jpg?raw=true'){
+        mainimg_s.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-2.jpg?raw=true';
         imgele2_2.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele1_1.style.border = 'none';
         imgele3_3.style.border = 'none';
@@ -142,8 +142,8 @@ btn_2.addEventListener('click',()=>{
         imgele3_3.style.opacity = "1";
         imgele4_4.style.opacity = "1";
     }
-    else if(mainimg_s.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-2.jpg?raw=true'){
-        mainimg_s.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-3.jpg?raw=true';
+    else if(mainimg_s.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-2.jpg?raw=true'){
+        mainimg_s.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-3.jpg?raw=true';
         imgele3_3.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele2_2.style.border = 'none';
         imgele1_1.style.border = 'none';
@@ -153,8 +153,8 @@ btn_2.addEventListener('click',()=>{
         imgele3_3.style.opacity = "0.5";
         imgele4_4.style.opacity = "1";
     }
-    else if(mainimg_s.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-3.jpg?raw=true'){
-        mainimg_s.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-4.jpg?raw=true';
+    else if(mainimg_s.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-3.jpg?raw=true'){
+        mainimg_s.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-4.jpg?raw=true';
         imgele4_4.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele2_2.style.border = 'none';
         imgele3_3.style.border = 'none';
@@ -169,32 +169,32 @@ btn_2.addEventListener('click',()=>{
 
 btn_1_s.addEventListener('click',()=>{
     
-    if(main_img_screen.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-4.jpg?raw=true'){
-        main_img_screen.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-3.jpg?raw=true';
+    if(main_img_screen.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-4.jpg?raw=true'){
+        main_img_screen.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-3.jpg?raw=true';
         
     }
-    else if(main_img_screen.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-3.jpg?raw=true'){
-        main_img_screen.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-2.jpg?raw=true';
+    else if(main_img_screen.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-3.jpg?raw=true'){
+        main_img_screen.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-2.jpg?raw=true';
         
     }
-    else if(main_img_screen.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-2.jpg?raw=true'){
-        main_img_screen.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-1.jpg?raw=true';
+    else if(main_img_screen.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-2.jpg?raw=true'){
+        main_img_screen.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-1.jpg?raw=true';
         
     }
 })
 
 btn_2_s.addEventListener('click',()=>{
 
-    if(main_img_screen.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-1.jpg?raw=true'){
-        main_img_screen.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-2.jpg?raw=true';
+    if(main_img_screen.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-1.jpg?raw=true'){
+        main_img_screen.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-2.jpg?raw=true';
         
     }
-    else if(main_img_screen.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-2.jpg?raw=true'){
-        main_img_screen.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-3.jpg?raw=true';
+    else if(main_img_screen.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-2.jpg?raw=true'){
+        main_img_screen.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-3.jpg?raw=true';
         
     }
-    else if(main_img_screen.src == 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-3.jpg?raw=true'){
-        main_img_screen.src = 'https://github.com/JayakarAddepalli/E-commerce_shoes/blob/main/images/image-product-4.jpg?raw=true';
+    else if(main_img_screen.src == 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-3.jpg?raw=true'){
+        main_img_screen.src = 'https://jayakaraddepalli.github.io/E-commerce_shoes/images/image-product-4.jpg?raw=true';
         
     }
 })
