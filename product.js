@@ -94,8 +94,8 @@ mainimg_s.addEventListener('click',(event)=>{
 
 btn_1.addEventListener('click',()=>{
     
-    if(mainimg_s.src == 'http://127.0.0.1:5500/images/image-product-4.jpg'){
-        mainimg_s.src = 'http://127.0.0.1:5500/images/image-product-3.jpg';
+    if(mainimg_s.src == './images/image-product-4.jpg'){
+        mainimg_s.src = './images/image-product-3.jpg';
         imgele3_3.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele1_1.style.border = 'none';
         imgele2_2.style.border = 'none';
@@ -105,8 +105,8 @@ btn_1.addEventListener('click',()=>{
         imgele2_2.style.opacity = "1";
         imgele4_4.style.opacity = "1";
     }
-    else if(mainimg_s.src == 'http://127.0.0.1:5500/images/image-product-3.jpg'){
-        mainimg_s.src = 'http://127.0.0.1:5500/images/image-product-2.jpg';
+    else if(mainimg_s.src == './images/image-product-3.jpg'){
+        mainimg_s.src = './images/image-product-2.jpg';
         imgele2_2.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele1_1.style.border = 'none';
         imgele3_3.style.border = 'none';
@@ -116,8 +116,8 @@ btn_1.addEventListener('click',()=>{
         imgele3_3.style.opacity = "1";
         imgele4_4.style.opacity = "1";
     }
-    else if(mainimg_s.src == 'http://127.0.0.1:5500/images/image-product-2.jpg'){
-        mainimg_s.src = 'http://127.0.0.1:5500/images/image-product-1.jpg';
+    else if(mainimg_s.src == './images/image-product-2.jpg'){
+        mainimg_s.src = './images/image-product-1.jpg';
         imgele1_1.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele2_2.style.border = 'none';
         imgele3_3.style.border = 'none';
@@ -131,8 +131,8 @@ btn_1.addEventListener('click',()=>{
 
 btn_2.addEventListener('click',()=>{
 
-    if(mainimg_s.src == 'http://127.0.0.1:5500/images/image-product-1.jpg'){
-        mainimg_s.src = 'http://127.0.0.1:5500/images/image-product-2.jpg';
+    if(mainimg_s.src == './images/image-product-1.jpg'){
+        mainimg_s.src = './images/image-product-2.jpg';
         imgele2_2.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele1_1.style.border = 'none';
         imgele3_3.style.border = 'none';
@@ -142,8 +142,8 @@ btn_2.addEventListener('click',()=>{
         imgele3_3.style.opacity = "1";
         imgele4_4.style.opacity = "1";
     }
-    else if(mainimg_s.src == 'http://127.0.0.1:5500/images/image-product-2.jpg'){
-        mainimg_s.src = 'http://127.0.0.1:5500/images/image-product-3.jpg';
+    else if(mainimg_s.src == './images/image-product-2.jpg'){
+        mainimg_s.src = './images/image-product-3.jpg';
         imgele3_3.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele2_2.style.border = 'none';
         imgele1_1.style.border = 'none';
@@ -153,8 +153,8 @@ btn_2.addEventListener('click',()=>{
         imgele3_3.style.opacity = "0.5";
         imgele4_4.style.opacity = "1";
     }
-    else if(mainimg_s.src == 'http://127.0.0.1:5500/images/image-product-3.jpg'){
-        mainimg_s.src = 'http://127.0.0.1:5500/images/image-product-4.jpg';
+    else if(mainimg_s.src == './images/image-product-3.jpg'){
+        mainimg_s.src = './images/image-product-4.jpg';
         imgele4_4.style.border = 'solid 2px rgb(255, 149, 0)';
         imgele2_2.style.border = 'none';
         imgele3_3.style.border = 'none';
@@ -169,32 +169,32 @@ btn_2.addEventListener('click',()=>{
 
 btn_1_s.addEventListener('click',()=>{
     
-    if(main_img_screen.src == 'http://127.0.0.1:5500/images/image-product-4.jpg'){
-        main_img_screen.src = 'http://127.0.0.1:5500/images/image-product-3.jpg';
+    if(main_img_screen.src == './images/image-product-4.jpg'){
+        main_img_screen.src = './images/image-product-3.jpg';
         
     }
-    else if(main_img_screen.src == 'http://127.0.0.1:5500/images/image-product-3.jpg'){
-        main_img_screen.src = 'http://127.0.0.1:5500/images/image-product-2.jpg';
+    else if(main_img_screen.src == './images/image-product-3.jpg'){
+        main_img_screen.src = './images/image-product-2.jpg';
         
     }
-    else if(main_img_screen.src == 'http://127.0.0.1:5500/images/image-product-2.jpg'){
-        main_img_screen.src = 'http://127.0.0.1:5500/images/image-product-1.jpg';
+    else if(main_img_screen.src == './images/image-product-2.jpg'){
+        main_img_screen.src = './images/image-product-1.jpg';
         
     }
 })
 
 btn_2_s.addEventListener('click',()=>{
 
-    if(main_img_screen.src == 'http://127.0.0.1:5500/images/image-product-1.jpg'){
-        main_img_screen.src = 'http://127.0.0.1:5500/images/image-product-2.jpg';
+    if(main_img_screen.src == './images/image-product-1.jpg'){
+        main_img_screen.src = './images/image-product-2.jpg';
         
     }
-    else if(main_img_screen.src == 'http://127.0.0.1:5500/images/image-product-2.jpg'){
-        main_img_screen.src = 'http://127.0.0.1:5500/images/image-product-3.jpg';
+    else if(main_img_screen.src == './images/image-product-2.jpg'){
+        main_img_screen.src = './images/image-product-3.jpg';
         
     }
-    else if(main_img_screen.src == 'http://127.0.0.1:5500/images/image-product-3.jpg'){
-        main_img_screen.src = 'http://127.0.0.1:5500/images/image-product-4.jpg';
+    else if(main_img_screen.src == './images/image-product-3.jpg'){
+        main_img_screen.src = './images/image-product-4.jpg';
         
     }
 })
