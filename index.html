@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./product.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; font-weight: bold; }
+    .attribution a { color: hsl(228, 100%, 50%); }
+
+
+    @media only screen and (max-width:360px){
+      .attribution { padding: 12px; font-size: 13px; position: absolute; bottom: -100px; left: 0px; right: 0px; background-color: rgba(0, 255, 255, 0);}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div>
+        <div id="handburger" style="width: fit-content;">
+          <img src="https://cdn-icons-png.flaticon.com/128/7130/7130015.png" alt="">
+        </div>
+        <div id="handburgeritems">
+          <span id="handburgercross"><img src="https://cdn-icons-png.flaticon.com/128/458/458595.png" alt=""></span>
+          <div id="small_elements">
+            <a href="">Collections</a>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+        <img src="./images/logo.svg" alt="" class="img1">
+        <div id="elements">
+          <a href="">Collections</a>
+          <a href="">Men</a>
+          <a href="">Women</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </div>
+        
+      </div>
+      <div>
+        <div>
+          <a href="" style="width: 20px; display: flex;"><img src="./images/icon-cart.svg" alt=""><sup></sup></a>
+        </div>
+        <img src="./images/image-avatar.png" alt="">
+      </div>
+    </nav>
+  </header>
+  <!-- <hr> -->
+
+  <main>
+    <section id="section1">
+
+      <div id="sec1_images">
+        <a href="" style="width: fit-content;" id="main_image"><img src="./images/image-product-1.jpg" alt="" class="main_img"></a>
+        <div style="width: 355px;">
+          <a href=""><img src="./images/image-product-1.jpg" alt="" id="imgele1"></a>
+          <a href=""><img src="./images/image-product-2.jpg" alt="" id="imgele2"></a>
+          <a href=""><img src="./images/image-product-3.jpg" alt="" id="imgele3"></a>
+          <a href=""><img src="./images/image-product-4.jpg" alt="" id="imgele4"></a>
+        </div>
+      </div>
+
+
+      <div id="sect1_main_s">
+        <button class="btn_1_s"><img src="https://cdn-icons-png.flaticon.com/128/271/271220.png" alt=""></button>
+        <img src="./images/image-product-1.jpg" alt="" class="main_img_screen">
+        <button class="btn_2_s"><img src="https://cdn-icons-png.flaticon.com/128/271/271228.png" alt=""></button>
+      </div>
+
+
+
+      <div id="inner_div3">
+        <div id="div1">
+          <h5 style="color: orange;">SNEAKERS COMPANY</h5>
+          <h1 style="font-size: 30px;">Fall Limited Edition<br>Sneakers</h1>
+        </div>
+        <p id="para">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+        <div class="smaller_s_amt" id="div3">
+          <div class="total_price">
+            <h1 style="width: fit-content; margin-right: 20px;">$125.00</h1>
+            <p style="color: orange; font-weight: bold; width: fit-content; background-color: rgb(255, 244, 223); padding: 5px; border: none; border-radius: 5px;">50%</p>
+          </div>
+          <del style="font-weight: bold; color: gray;">$250.00</del>
+        </div>
+        <div class="last_Ele">
+          <div id="addlistbox">
+            <img src="./images/icon-minus.svg" alt="" class="minus">
+            <span style="width: fit-content; font-weight: bold;" id="item_num">0</span>
+            <img src="./images/icon-plus.svg" alt="" class="plus">
+          </div>
+          <button style="color: white; font-weight: bold;" id="button1">
+            <img src="./images/icon-cart.svg" alt="">
+            <span style="padding: 5px; width: fit-content;">Add to carts</span>
+          </button>
+        </div>
+      </div>
+
+
+    </section>
+      
+    <section  id="section2">
+
+      <div>
+        <div style="width: fit-content; display: flex;">
+          <button class="btn_1"><img src="https://cdn-icons-png.flaticon.com/128/271/271220.png" alt=""></button>
+          <a href="" style="width: fit-content;" id="main_image_1"><img src="./images/image-product-1.jpg" alt="" class="main_img_s"></a>
+          <button class="btn_2"><img src="https://cdn-icons-png.flaticon.com/128/271/271228.png" alt=""></button>
+        </div>
+
+        <div style="width: 355px;" class="div2">
+          <a href=""><img src="./images/image-product-1.jpg" alt="" id="imgele1_1"></a>
+          <a href=""><img src="./images/image-product-2.jpg" alt="" id="imgele2_2"></a>
+          <a href=""><img src="./images/image-product-3.jpg" alt="" id="imgele3_3"></a>
+          <a href=""><img src="./images/image-product-4.jpg" alt="" id="imgele4_4"></a>
+        </div>
+      </div>
+
+      <span id="s_block"><img src="https://cdn-icons-png.flaticon.com/128/1/1766.png" alt=""></span>
+
+    </section>
+  </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Jayakarjjjjjjjjjj" target="_blank">Jayakar</a>.
+  </div>
+  <script src="./product.js"></script>
+</body>
+</html>
