@@ -50,6 +50,66 @@ handburgercross.addEventListener('click',()=>{
     handburgeritems.style.display = 'none';
 })
 
+// update here
+let cart = document.getElementById('cart');
+let sec3 = document.getElementById('section3');
+
+let quantity = document.getElementById('quantity');
+
+let NoItems = document.getElementById('NoItems');
+
+let totalcharges = document.getElementById('totalcharges');
+
+let placeorder = document.getElementById('placeorder');
+
+let header = document.getElementsByTagName('header')[0];
+let attribution = document.getElementsByClassName('attribution')[0];
+
+let cross = document.getElementsByClassName('cross')[0];
+
+let supele = document.getElementById('supele');
+
+cross.addEventListener('click',()=>{
+    sec3.style.display = 'none';
+    header.style.opacity = '1';
+    attribution.style.opacity = '1';
+    sec1.style.opacity = '1';
+})
+
+placeorder.addEventListener('click',()=>{
+    location.href = './ThankingPage.html'
+})
+
+cart.addEventListener('click',(event)=>{
+    event.preventDefault();
+
+    if(supele.textContent!=0){
+        sec3.style.display = 'block';
+        header.style.opacity = '0.2';
+        attribution.style.opacity = '0.2';
+        sec1.style.opacity = '0.2';
+
+    }
+    else{
+        alert('Your cart is empty')
+    }
+
+    NoItems.value = item_num.textContent
+    // console.log(i1.value);
+
+    quantity.textContent = NoItems.value
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
+})
+
+quantity.textContent = NoItems.value
+
+NoItems.addEventListener('click',()=>{
+    quantity.textContent = NoItems.value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
+})
+//up to here
+
+
 let inc = 0;
 let dec = 0;
 
@@ -73,7 +133,7 @@ ADDCART.addEventListener('click',()=>{
         sup.textContent = item_num.textContent;
     }
     else if(item_num.textContent == 0){
-        alert('Quantity of the item is zero, you must have to select the quantity of the item.')
+        alert('Quantity of the item is zero, please select the quantity of the item.')
     }
     
 })
