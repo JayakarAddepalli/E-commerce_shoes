@@ -57,6 +57,7 @@ let sec3 = document.getElementById('section3');
 let quantity = document.getElementById('quantity');
 
 let NoItems = document.getElementById('NoItems');
+let option = document.getElementsByTagName('option');
 
 let totalcharges = document.getElementById('totalcharges');
 
@@ -107,6 +108,43 @@ NoItems.addEventListener('click',()=>{
     quantity.textContent = NoItems.value;
     totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
+
+option[0].addEventListener('click',()=>{
+    quantity.textContent = option[0].value;
+})
+
+option[1].addEventListener('click',()=>{
+    quantity.textContent = option[1].value;
+})
+
+option[2].addEventListener('click',()=>{
+    quantity.textContent = option[2].value;
+})
+
+option[3].addEventListener('click',()=>{
+    quantity.textContent = option[3].value;
+})
+
+option[4].addEventListener('click',()=>{
+    quantity.textContent = option[4].value;
+})
+
+option[5].addEventListener('click',()=>{
+    quantity.textContent = option[5].value;
+})
+
+option[6].addEventListener('click',()=>{
+    quantity.textContent = option[6].value;
+})
+
+option[7].addEventListener('click',()=>{
+    quantity.textContent = option[7].value;
+})
+
+option[8].addEventListener('click',()=>{
+    quantity.textContent = option[8].value;
+})
+
 //up to here
 
 
