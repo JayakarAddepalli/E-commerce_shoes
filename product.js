@@ -111,38 +111,47 @@ NoItems.addEventListener('click',()=>{
 
 option[0].addEventListener('click',()=>{
     quantity.textContent = option[0].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 option[1].addEventListener('click',()=>{
     quantity.textContent = option[1].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 option[2].addEventListener('click',()=>{
     quantity.textContent = option[2].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 option[3].addEventListener('click',()=>{
     quantity.textContent = option[3].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 option[4].addEventListener('click',()=>{
     quantity.textContent = option[4].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 option[5].addEventListener('click',()=>{
     quantity.textContent = option[5].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 option[6].addEventListener('click',()=>{
     quantity.textContent = option[6].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 option[7].addEventListener('click',()=>{
     quantity.textContent = option[7].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 option[8].addEventListener('click',()=>{
     quantity.textContent = option[8].value;
+    totalcharges.textContent = `$ ${125*Number(quantity.textContent) + 30}`
 })
 
 //up to here
